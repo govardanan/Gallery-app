@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gallery App</title>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1,width=device-width" />
+
+<meta charset="utf-8"/>
+
+
+<link rel="stylesheet" href="css/one.css" />
+<!--javascript source for jquery and jquery-mobile-->
+<script src="js/one.js"></script>
+<script src="js/two.js"></script>
+
+<script type="text/javascript" src="js/gallery.js"></script>
+<script src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+</head>
+
+<body>
+ <!--  home page  -->
+<div data-role="page" id="home">
+<div data-role="header" id="head" data-theme="b" data-position="fixed" data-tap-toggle="false">
+<h2 style="position:relative">Gallery App</h2>
+<a href="" class="ui-btn ui-shadow ui-corner-all ui-icon-camera ui-btn-icon-notext" data-role="button" onclick="getPhoto()"></a>
+<a href="#grid" class="ui-btn ui-shadow ui-corner-all ui-icon-grid ui-btn-icon-notext" data-role="button"></a>  
+
+</div>
+
+<div data-role="content" data-theme="a">
+
+
+
+
+
+
+</div>
+
+<div data-role="footer" id="footer" data-position="fixed" data-theme="b" data-tap-toggle="false">
+<h1>&copy;CopyRights Reserved</h1>
+
+</div>
+
+</div>
+
+
+<!--grid page-->
+<div data-role="page" id="grid">
+<div data-role="header" id="head" data-theme="b" data-position="fixed" data-tap-toggle="false">
+<h2 style="position:relative">Grid View</h2>
+<a href="" class="ui-btn ui-icon-back ui-btn-icon-left" data-role="button" data-rel="back">
+Back</a>
+
+
+
+
+</div>
+
+<div data-role="content" data-theme="a" >
+
+
+
+<div id="status"></div>
+<div id="imgdiv"></div>
+
+
+
+</div>
+
+<div data-role="footer" id="footer" data-position="fixed" data-theme="b" data-tap-toggle="false">
+<h1>&copy;CopyRights Reserved</h1>
+
+</div>
+
+</div>
+
+
+</body>
+</html>
+
